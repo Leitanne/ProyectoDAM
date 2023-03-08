@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779eedd5c7a6bd94c9001a8873003a08, type: 3}
+  m_Name: ItemManaPotion
+  m_EditorClassIdentifier: 
+  ID: ManaPotion
+  Name: "Poci\xF3n de Man\xE1"
+  Icon: {fileID: 21300000, guid: d34e30ed53fa061488096d864103f4b9, type: 3}
+  Description: "Esta poci\xF3n restaura 20 puntos de Man\xE1."
+  type: 1
+  consumable: 1
+  canBeStacked: 1
+  maxStack: 50
+  amount: 0
+  manaRestore: 20
